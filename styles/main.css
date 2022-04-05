@@ -17,5 +17,33 @@ body {
 .site-header {
   background: white;
   padding: 4.0rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.site-header > .content-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.entry-header {
+  margin-top: 12.8rem;
+  position: relative;
+}
+
+.entry-header > .content-wrapper {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=main.css.map */

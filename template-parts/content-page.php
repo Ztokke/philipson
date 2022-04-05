@@ -14,9 +14,8 @@
     <div class="content-wrapper">
       <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
     </div>
+    <?php philipson_post_thumbnail(); ?>
   </header><!-- .entry-header -->
-
-  <?php philipson_post_thumbnail(); ?>
 
   <div class="entry-content">
     <?php
