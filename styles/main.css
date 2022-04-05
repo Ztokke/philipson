@@ -8,10 +8,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.content-wrapper {
+.content-wrapper, .wp-block-columns {
   max-width: 114.0rem;
   margin: 0 auto;
   padding: 0 3.0rem;
+}
+
+.wp-block.--paragraph {
+  line-height: 2.0rem;
 }
 
 .site-header {
