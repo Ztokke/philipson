@@ -26,13 +26,13 @@ function philipson_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'philipson_body_classes' );
 
-// add_filter( 'render_block', 'wrap_table_block', 10, 2 );
-// function wrap_table_block( $block_content, $block ) {
-//   if ( 'core/table' === $block['blockName'] ) {
-//     $block_content = '<div class="example">' . $block_content . '</div>';
-//   }
-//   return $block_content;
-// }
+add_filter( 'render_block', 'wrap_table_block', 10, 2 );
+function wrap_table_block( $block_content, $block ) {
+  if ( 'core/table' === $block['blockName'] ) {
+    $block_content = '<div class="example">' . $block_content . '</div>';
+  }
+  return $block_content;
+}
 
 /**
  * Add a pingback url auto-discovery header for single posts, pages, or attachments.
