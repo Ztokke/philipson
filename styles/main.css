@@ -1,4 +1,9 @@
-body div {
-  background: tomato;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.0rem;
+  font-family: "Monserrat" sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
