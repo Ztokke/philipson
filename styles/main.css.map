@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;CAAG;;AAErB,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,uBAAuB;CAAG",
+    "mappings": "ACAA,OAAO,CAAC,qFAAI;ACAZ,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;CAAG;;AAErB,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,qBAAqB;CAAG",
     "sources": [
         "main.sass",
+        "general/_fonts.sass",
         "general/_body.sass"
     ],
     "names": [],
