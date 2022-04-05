@@ -7,4 +7,15 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+
+.content-wrapper {
+  max-width: 114.0rem;
+  margin: 0 auto;
+  padding: 0 3.0rem;
+}
+
+.site-header {
+  background: white;
+  padding: 4.0rem 0;
+}
 /*# sourceMappingURL=main.css.map */

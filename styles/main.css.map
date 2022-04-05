@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "ACAA,OAAO,CAAC,qFAAI;ACAZ,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;CAAG;;AAErB,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,qBAAqB;CAAG",
+    "mappings": "ACAA,OAAO,CAAC,qFAAI;ACAZ,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;CAAG;;AAErB,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,qBAAqB;CAAG;;AAEvC,AAAA,gBAAgB,CAAC;EACf,SAAS,EAAE,QAAQ;EACnB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,QAAQ;CAAG;;ACVtB,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,QAAQ;CAAG",
     "sources": [
         "main.sass",
         "general/_fonts.sass",
-        "general/_body.sass"
+        "general/_body.sass",
+        "layout/_header.sass"
     ],
     "names": [],
     "file": "main.css"
