@@ -34,6 +34,22 @@ function wrap_paragraph_block( $block_content, $block ) {
   return $block_content;
 }
 
+add_filter( 'render_block', 'wrap_list_block', 10, 2 );
+function wrap_list_block( $block_content, $block ) {
+  if ( 'core/list' === $block['blockName'] ) {
+    $block_content = '<div class="wp-block --list"><div class="content-wrapper">' . $block_content . '</div></div>';
+  }
+  return $block_content;
+}
+
+add_filter( 'render_block', 'wrap_heading_block', 10, 2 );
+function wrap_heading_block( $block_content, $block ) {
+  if ( 'core/heading' === $block['blockName'] ) {
+    $block_content = '<div class="wp-block --heading"><div class="content-wrapper">' . $block_content . '</div></div>';
+  }
+  return $block_content;
+}
+
 /**
  * Add a pingback url auto-discovery header for single posts, pages, or attachments.
  */
