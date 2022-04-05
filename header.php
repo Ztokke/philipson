@@ -36,7 +36,11 @@
         <?php
       else :
         ?>
-        <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+        <div class="site-title">
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            <?php bloginfo( 'name' ); ?>
+          </a>
+        </div>
         <?php
       endif;
       $philipson_description = get_bloginfo( 'description', 'display' );
