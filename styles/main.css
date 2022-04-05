@@ -20,6 +20,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .site-header > .content-wrapper {
@@ -32,6 +33,12 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 50%;
+}
+
+.site-header > .content-wrapper > .entry-title {
+  color: white;
+  text-align: center;
 }
 
 .entry-header {
