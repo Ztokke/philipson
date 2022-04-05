@@ -29,7 +29,7 @@ add_filter( 'body_class', 'philipson_body_classes' );
 add_filter( 'render_block', 'wrap_paragraph_block', 10, 2 );
 function wrap_paragraph_block( $block_content, $block ) {
   if ( 'core/paragraph' === $block['blockName'] ) {
-    $block_content = '<div class="example">' . $block_content . '</div>';
+    $block_content = '<div class="wp-block --paragraph"><div class="content-wrapper">' . $block_content . '</div></div>';
   }
   return $block_content;
 }
