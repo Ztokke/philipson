@@ -31,9 +31,8 @@
   <header id="masthead" class="site-header">
     <div class="content-wrapper">
       <div class="site-branding">
-        <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="fisken" />
         <?php
-        the_custom_logo($blog_id);
+        the_custom_logo();
         if ( is_front_page() && is_home() ) :
           ?>
           <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="fisken" />
@@ -44,9 +43,8 @@
           </h1>
           <?php else :?>
           <div class="site-title --two">
-            <?php the_custom_logo($blog_id); ?>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-              <?php bloginfo( 'name' ); ?>
+              <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
             </a>
           </div>
           <?php
