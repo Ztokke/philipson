@@ -31,12 +31,12 @@
   <header id="masthead" class="site-header">
     <div class="content-wrapper">
       <div class="site-branding">
-        <img src="/img/blue.svg" alt="fisken" />
+        <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="fisken" />
         <?php
         the_custom_logo($blog_id);
         if ( is_front_page() && is_home() ) :
           ?>
-          <img src="/wp-content/themes/Philipson/img/blue.svg" alt="fisken" />
+          <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="fisken" />
           <h1 class="site-title --one">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
