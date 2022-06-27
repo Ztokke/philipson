@@ -64,17 +64,17 @@ body {
   max-width: 36.0rem;
 }
 
-.primary-menu {
+.nav-menu {
   gap: 3.0rem;
 }
 
-.primary-menu > .menu-item > a {
+.nav-menu > .menu-item > a {
   color: black;
   -webkit-transition: color 400ms ease-in-out;
   transition: color 400ms ease-in-out;
 }
 
-.primary-menu > .menu-item > a:hover {
+.nav-menu > .menu-item > a:hover {
   color: #243f4e;
 }
 
