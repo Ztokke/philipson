@@ -14,12 +14,16 @@ body {
   padding: 0 3.0rem;
 }
 
-.wp-block-column .wp-block > .content-wrapper {
-  padding: 0;
+.wp-block.--heading .--centered {
+  text-align: center;
 }
 
 .wp-block.--paragraph {
   line-height: 2.0rem;
+}
+
+.wp-block.--list > .content-wrapper > ul {
+  margin: 0;
 }
 
 .wp-block.--list > .content-wrapper > ul.columns {
@@ -27,7 +31,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  margin: 0;
   padding: 2.4rem 0;
 }
 
