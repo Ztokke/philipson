@@ -7,14 +7,19 @@
 
   &.--list
     & > .content-wrapper
-      & > .columns
-        display: flex
-        margin: 0
-        list-style: none
-        padding: 2.4rem 0
+      .wp-block-column &
+        padding: 0
 
-        & > li
-          flex-grow: 1
-          flex-basis: 0
-          padding: 0 2.4rem
-          text-align: center
+      & > ul
+        margin: 0
+
+        &.columns
+          display: flex
+          list-style: none
+          padding: 2.4rem 0
+
+          & > li
+            flex-grow: 1
+            flex-basis: 0
+            padding: 0 2.4rem
+            text-align: center

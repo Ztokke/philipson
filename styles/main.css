@@ -18,16 +18,23 @@ body {
   line-height: 2.0rem;
 }
 
-.wp-block.--list > .content-wrapper > .columns {
+.wp-block-column .wp-block.--list > .content-wrapper {
+  padding: 0;
+}
+
+.wp-block.--list > .content-wrapper > ul {
+  margin: 0;
+}
+
+.wp-block.--list > .content-wrapper > ul.columns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
   list-style: none;
   padding: 2.4rem 0;
 }
 
-.wp-block.--list > .content-wrapper > .columns > li {
+.wp-block.--list > .content-wrapper > ul.columns > li {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
