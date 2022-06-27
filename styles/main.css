@@ -18,9 +18,22 @@ body {
   line-height: 2.0rem;
 }
 
+.entry-header {
+  margin-top: 11.2rem;
+  position: relative;
+}
+
+.entry-header > .content-wrapper {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .site-header {
   background: white;
-  padding: 4.0rem 0;
+  padding: 2.0rem 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -45,16 +58,12 @@ body {
   text-align: center;
 }
 
-.entry-header {
-  margin-top: 12.8rem;
-  position: relative;
+.site-branding > .site-title > .site-anchor,
+.site-branding > .site-title > .site-anchor > .image {
+  display: block;
 }
 
-.entry-header > .content-wrapper {
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+.primary-menu {
+  gap: 3.0rem;
 }
 /*# sourceMappingURL=main.css.map */

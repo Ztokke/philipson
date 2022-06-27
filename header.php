@@ -35,7 +35,10 @@
         the_custom_logo();
         if ( is_front_page() && is_home() ) :
           ?>
-          <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="fisken" />
+          <img
+            class="image"
+            src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>"
+            alt="fisken" />
           <h1 class="site-title --one">
             <a class="site-anchor" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
@@ -44,7 +47,11 @@
           <?php else :?>
           <div class="site-title --two">
             <a class="site-anchor" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-              <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
+              <img
+                class="image"
+                src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>"
+                alt="<?php bloginfo( 'name' ); ?>"
+              />
             </a>
           </div>
           <?php
