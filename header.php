@@ -31,6 +31,7 @@
   <header id="masthead" class="site-header">
     <div class="content-wrapper">
       <div class="site-branding">
+        <img src="/img/blue.svg" alt="fisken" />
         <?php
         the_custom_logo();
         if ( is_front_page() && is_home() ) :
