@@ -14,7 +14,9 @@ body {
   padding: 0 3.0rem;
 }
 
-.wp-block.--heading .--centered {
+.wp-block.--paragraph .--centered, .wp-block.--heading .--centered {
+  width: 50%;
+  margin: 1.0rem auto;
   text-align: center;
 }
 
