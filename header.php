@@ -44,6 +44,7 @@
           </h1>
           <?php else :?>
           <div class="site-title">
+            <?php the_custom_logo(); ?>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
             </a>
