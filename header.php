@@ -36,14 +36,14 @@
         the_custom_logo($blog_id);
         if ( is_front_page() && is_home() ) :
           ?>
-          <img src="/img/blue.svg" alt="fisken" />
-          <h1 class="site-title">
+          <img src="/wp-content/themes/Philipson/img/blue.svg" alt="fisken" />
+          <h1 class="site-title --one">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
             </a>
           </h1>
           <?php else :?>
-          <div class="site-title">
+          <div class="site-title --two">
             <?php the_custom_logo($blog_id); ?>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
