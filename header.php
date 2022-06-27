@@ -37,13 +37,13 @@
           ?>
           <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="fisken" />
           <h1 class="site-title --one">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            <a class="site-anchor" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
             </a>
           </h1>
           <?php else :?>
           <div class="site-title --two">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            <a class="site-anchor" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <img src="<?php echo get_theme_file_uri( 'img/blue.svg' ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
             </a>
           </div>
