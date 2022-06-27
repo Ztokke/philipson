@@ -46,6 +46,15 @@ body {
   text-align: center;
 }
 
+.wp-block.--list > .content-wrapper > ul.columns > li > .icon {
+  display: block;
+  font-size: 4.0rem;
+  height: 4.0rem;
+  line-height: 4.0rem;
+  margin: 0 auto 2.0rem;
+  width: 4.0rem;
+}
+
 .entry-header {
   margin-top: 11.2rem;
   position: relative;
