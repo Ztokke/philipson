@@ -35,24 +35,21 @@
         the_custom_logo();
         if ( is_front_page() && is_home() ) :
           ?>
+          <img src="/img/blue.svg" alt="fisken" />
           <h1 class="site-title">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
             </a>
           </h1>
-          <?php
-        else :
-          ?>
+          <?php else :?>
           <div class="site-title">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
             </a>
           </div>
           <?php
-        endif;
-        $philipson_description = get_bloginfo( 'description', 'display' );
-        if ( $philipson_description || is_customize_preview() ) :
-          ?>
+            endif; $philipson_description = get_bloginfo( 'description', 'display' );
+            if ( $philipson_description || is_customize_preview() ) : ?>
           <p class="site-description">
             <?php echo $philipson_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
           </p>
