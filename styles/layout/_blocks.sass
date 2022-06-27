@@ -4,3 +4,16 @@
 .wp-block
   &.--paragraph
     line-height: 2.0rem
+
+.wp-block
+  &.--list
+    & > ul
+      display: flex
+      margin: 0
+      list-style: none
+      padding: 2.4rem 0
+
+      & > li
+        flex: 0 0 25%
+        padding: 0 2.4rem
+        text-align: center
