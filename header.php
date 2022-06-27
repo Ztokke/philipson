@@ -33,7 +33,7 @@
       <div class="site-branding">
         <img src="/img/blue.svg" alt="fisken" />
         <?php
-        the_custom_logo();
+        the_custom_logo($blog_id);
         if ( is_front_page() && is_home() ) :
           ?>
           <img src="/img/blue.svg" alt="fisken" />
@@ -44,7 +44,7 @@
           </h1>
           <?php else :?>
           <div class="site-title">
-            <?php the_custom_logo(); ?>
+            <?php the_custom_logo($blog_id); ?>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
               <?php bloginfo( 'name' ); ?>
             </a>
