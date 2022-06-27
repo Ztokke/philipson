@@ -68,6 +68,10 @@ body {
           transform: translate(-50%, -50%);
 }
 
+.footer {
+  background: #2F2D2E;
+}
+
 .site-header {
   background: white;
   padding: 2.0rem 0;
