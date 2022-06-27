@@ -105,6 +105,10 @@ body {
   max-width: 36.0rem;
 }
 
+.page {
+  margin: 0;
+}
+
 .nav-menu {
   gap: 3.0rem;
   line-height: 2.5rem;
