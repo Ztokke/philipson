@@ -50,7 +50,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 50%;
+  width: 100%;
 }
 
 .site-header > .content-wrapper > .entry-title {
@@ -61,9 +61,25 @@ body {
 .site-branding > .site-title > .site-anchor,
 .site-branding > .site-title > .site-anchor > .image {
   display: block;
+  max-width: 36.0rem;
 }
 
 .primary-menu {
   gap: 3.0rem;
+}
+
+.primary-menu > .menu-item > a {
+  color: black;
+  -webkit-transition: color 400ms ease-in-out;
+  transition: color 400ms ease-in-out;
+}
+
+.primary-menu > .menu-item > a:hover {
+  color: #243f4e;
+}
+
+.main-navigation {
+  margin-left: auto;
+  width: auto;
 }
 /*# sourceMappingURL=main.css.map */
