@@ -2,11 +2,14 @@
   @extend %content-wrapper
 
 .wp-block
-  &.--paragraph,
-  &.--heading
+  &.--paragraph
     .--centered
       width: 50%
       margin: 1.0rem auto
+      text-align: center
+
+  &.--heading
+    .--centered
       text-align: center
 
   &.--paragraph

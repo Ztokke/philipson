@@ -20,6 +20,9 @@ h1 {
 
 h2 {
   font-size: 3.2rem;
+}
+
+h2:not(:empty) {
   margin-top: 8.0rem;
 }
 
@@ -27,9 +30,13 @@ h3 {
   font-size: 2.4rem;
 }
 
-.wp-block.--paragraph .--centered, .wp-block.--heading .--centered {
+.wp-block.--paragraph .--centered {
   width: 50%;
   margin: 1.0rem auto;
+  text-align: center;
+}
+
+.wp-block.--heading .--centered {
   text-align: center;
 }
 
