@@ -98,13 +98,13 @@ h3 {
   text-align: center;
 }
 
-.entry-header > .content-wrapper > .post-thumbnail {
+.entry-header > .post-thumbnail {
   height: 60vh;
   overflow: hidden;
   position: relative;
 }
 
-.entry-header > .content-wrapper > .post-thumbnail > img {
+.entry-header > .post-thumbnail > img {
   left: 0;
   position: absolute;
   right: 0;
