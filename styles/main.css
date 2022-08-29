@@ -44,7 +44,7 @@ h3 {
   line-height: 2.0rem;
 }
 
-.wp-block.--paragraph.--no-padding {
+.wp-block.--paragraph .--no-padding {
   margin: 0 -3.0rem;
 }
 
