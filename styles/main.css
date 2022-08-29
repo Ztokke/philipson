@@ -104,6 +104,17 @@ h3 {
   position: relative;
 }
 
+.entry-header > .post-thumbnail::after {
+  content: "";
+  position: absolute;
+  background: black;
+  opacity: .1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .entry-header > .post-thumbnail > img {
   left: 0;
   position: absolute;
