@@ -120,10 +120,14 @@ h3 {
 }
 
 .entry-header > .post-thumbnail > img {
-  left: 0;
+  aspect-ratio: 16/9;
+  left: 50%;
+  max-width: none;
   position: absolute;
-  right: 0;
-  width: 100%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  min-height: 100%;
 }
 
 .footer {
