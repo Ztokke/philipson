@@ -130,6 +130,13 @@ h3 {
   min-height: 100%;
 }
 
+@media only screen and (min-width: 1200px) {
+  .entry-header > .post-thumbnail > img {
+    min-height: none;
+    min-width: 100%;
+  }
+}
+
 .footer {
   background: #2f2d2e;
   color: #ffffff;
