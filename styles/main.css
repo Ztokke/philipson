@@ -53,12 +53,19 @@ h3 {
 }
 
 .wp-block.--paragraph a {
-  background: rgba(0, 124, 186, 0.3);
+  background: rgba(0, 124, 186, 0.5);
+  border-radius: .4rem;
   color: black;
   display: inline-block;
   margin: 2.0rem 0 1.0rem;
   padding: 2.0rem;
   text-decoration: none;
+  -webkit-transition: background-color .4s ease;
+  transition: background-color .4s ease;
+}
+
+.wp-block.--paragraph a:hover, .wp-block.--paragraph a:focus-visible {
+  background: rgba(0, 124, 186, 0.7);
 }
 
 .wp-block.--list > .content-wrapper > ul {
