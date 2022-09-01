@@ -52,6 +52,15 @@ h3 {
   margin: 0 -3.0rem;
 }
 
+.wp-block.--paragraph a {
+  background: #007cba;
+  color: black;
+  display: inline-block;
+  margin: 2.0rem 0 1.0rem;
+  padding: 2.0rem;
+  text-decoration: none;
+}
+
 .wp-block.--list > .content-wrapper > ul {
   margin: 0;
 }
@@ -130,7 +139,7 @@ h3 {
   min-height: 100%;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   .entry-header > .post-thumbnail > img {
     min-height: none;
     min-width: 100%;
