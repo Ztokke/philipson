@@ -8,6 +8,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+body *,
+body *::before,
+body *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 .content-wrapper, .wp-block-columns {
   max-width: 114.0rem;
   margin: 0 auto;
@@ -38,6 +45,10 @@ h3 {
 
 .wp-block-group.has-background {
   padding: 6.0rem 0;
+}
+
+.wp-block-group.block-spacing-top {
+  margin-top: 6.0rem;
 }
 
 .wp-block.--paragraph .--centered {
@@ -168,6 +179,8 @@ h3 {
 
 .site-header {
   background: white;
+  -webkit-box-shadow: 0.5rem 0.5rem 2rem 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0.5rem 0.5rem 2rem 1rem rgba(0, 0, 0, 0.5);
   padding: 2.0rem 0;
   position: fixed;
   top: 0;

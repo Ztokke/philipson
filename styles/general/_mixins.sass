@@ -1,0 +1,7 @@
+=breakpoint($min, $max: false)
+  @if $max
+    @media screen and (min-width: $min) and (max-width: $max - 1px)
+      @content
+  @else
+    @media screen and (min-width: $min)
+      @content
