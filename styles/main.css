@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 html {
   -webkit-box-sizing: border-box;
@@ -21,7 +20,7 @@ body *::after {
 .content-wrapper, .wp-block-columns {
   max-width: 114.0rem;
   margin: 0 auto;
-  padding: 0 1.6rem;
+  padding: 0 2.4rem;
   width: 100%;
 }
 
@@ -48,7 +47,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.4rem´;
+  font-size: 2.4rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -176,6 +175,16 @@ h3 {
   line-height: 4.0rem;
   margin: 0 auto 2.0rem;
   width: 4.0rem;
+}
+
+.entry-header {
+  margin-top: 8.0rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .entry-header {
+    margin-top: 12.0rem;
+  }
 }
 
 .has-post-thumbnail > .entry-header {
