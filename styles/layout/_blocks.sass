@@ -46,14 +46,18 @@
 
         &.columns
           display: flex
+          flex-wrap: wrap
           list-style: none
           padding: 2.4rem 0
 
           & > li
-            flex-grow: 1
-            flex-basis: 0
+            flex: 1 0 100%
             padding: 0 2.4rem
             text-align: center
+
+            +breakpoint($bp-medium)
+              flex-grow: 1
+              flex-basis: 0
 
             & > .icon
               display: block
