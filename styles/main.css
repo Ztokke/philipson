@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 html {
   -webkit-box-sizing: border-box;
@@ -36,19 +37,43 @@ body *::after {
 }
 
 h1 {
-  font-size: 4.6rem;
-}
-
-h2 {
   font-size: 3.2rem;
 }
 
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4.6rem;
+  }
+}
+
+h2 {
+  font-size: 2.4rem´;
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 3.2rem;
+  }
+}
+
 h2:not(:empty) {
-  margin-top: 8.0rem;
+  margin-top: 4.0rem;
+}
+
+@media screen and (min-width: 1024px) {
+  h2:not(:empty) {
+    margin-top: 8.0rem;
+  }
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  h3 {
+    font-size: 2.4rem;
+  }
 }
 
 .wp-block-group.has-background {
@@ -60,9 +85,15 @@ h3 {
 }
 
 .wp-block.--paragraph .--centered {
-  width: 50%;
   margin: 1.0rem auto;
   text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .wp-block.--paragraph .--centered {
+    width: 50%;
+  }
 }
 
 .wp-block.--heading .--centered {
@@ -103,15 +134,21 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 2.0rem;
   list-style: none;
   padding: 2.4rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .wp-block.--list > .content-wrapper > ul.columns {
+    gap: 4.0rem;
+  }
 }
 
 .wp-block.--list > .content-wrapper > ul.columns > li {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
-  padding: 0 2.4rem;
   text-align: center;
 }
 

@@ -11,9 +11,12 @@
 .wp-block
   &.--paragraph
     .--centered
-      width: 50%
       margin: 1.0rem auto
       text-align: center
+      width: 100%
+
+      +breakpoint($bp-medium)
+        width: 50%
 
   &.--heading
     .--centered
@@ -47,12 +50,15 @@
         &.columns
           display: flex
           flex-wrap: wrap
+          gap: 2.0rem
           list-style: none
           padding: 2.4rem 0
 
+          +breakpoint($bp-medium)
+            gap: 4.0rem
+
           & > li
             flex: 1 0 100%
-            padding: 0 2.4rem
             text-align: center
 
             +breakpoint($bp-medium)
