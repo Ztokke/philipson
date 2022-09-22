@@ -1,20 +1,21 @@
 .entry-header
-  margin-top: 5.0rem
-  position: relative
+  &.has-post-thumbnail
+    margin-top: 5.0rem
+    position: relative
 
-  +breakpoint($bp-medium)
-    margin-top: 11.2rem
+    +breakpoint($bp-medium)
+      margin-top: 11.2rem
 
-  & > .content-wrapper
-    left: 50%
-    position: absolute
-    top: 50%
-    transform: translate(-50%, -50%)
-    z-index: 2
+    & > .content-wrapper
+      left: 50%
+      position: absolute
+      top: 50%
+      transform: translate(-50%, -50%)
+      z-index: 2
 
-    & > .entry-title
-      color: white
-      text-align: center
+      & > .entry-title
+        color: white
+        text-align: center
 
   & > .post-thumbnail
     height: 60vh
