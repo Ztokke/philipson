@@ -78,7 +78,13 @@ h3 {
 }
 
 .wp-block-group.has-background {
-  padding: 6.0rem 0;
+  padding: 3.0rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .wp-block-group.has-background {
+    padding: 6.0rem 0;
+  }
 }
 
 .wp-block-group.block-spacing-top {
@@ -294,7 +300,7 @@ h3 {
   width: auto;
 }
 
-@media screen and (min-width: 0 1024px) {
+@media screen and (min-width: 0) and (max-width: 1023px) {
   .main-navigation {
     display: none;
   }
