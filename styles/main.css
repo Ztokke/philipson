@@ -178,18 +178,18 @@ h3 {
   width: 4.0rem;
 }
 
-.entry-header.has-post-thumbnail {
+.has-post-thumbnail > .entry-header {
   margin-top: 5.0rem;
   position: relative;
 }
 
 @media screen and (min-width: 1024px) {
-  .entry-header.has-post-thumbnail {
+  .has-post-thumbnail > .entry-header {
     margin-top: 11.2rem;
   }
 }
 
-.entry-header.has-post-thumbnail > .content-wrapper {
+.has-post-thumbnail > .entry-header > .content-wrapper {
   left: 50%;
   position: absolute;
   top: 50%;
@@ -198,7 +198,7 @@ h3 {
   z-index: 2;
 }
 
-.entry-header.has-post-thumbnail > .content-wrapper > .entry-title {
+.has-post-thumbnail > .entry-header > .content-wrapper > .entry-title {
   color: white;
   text-align: center;
 }
