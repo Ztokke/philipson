@@ -5,7 +5,7 @@
   position: fixed
   top: 0
   width: 100%
-  z-index: 1
+  z-index: 10
 
   & > .content-wrapper
     align-items: center
@@ -19,7 +19,10 @@
       &,
       & > .image
         display: block
-        max-width: 36.0rem
+        max-width: 28.0rem
+
+        +breakpoint($bp-medium)
+          max-width: 36.0rem
 
 .page
   margin: 0

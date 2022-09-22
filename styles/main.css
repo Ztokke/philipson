@@ -20,7 +20,13 @@ body *::after {
 .content-wrapper, .wp-block-columns {
   max-width: 114.0rem;
   margin: 0 auto;
-  padding: 0 3.0rem;
+  padding: 0 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .content-wrapper, .wp-block-columns {
+    padding: 0 3.0rem;
+  }
 }
 
 .wp-block-columns .content-wrapper {
@@ -187,7 +193,7 @@ h3 {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 
 .site-header > .content-wrapper {
@@ -206,7 +212,14 @@ h3 {
 .site-branding > .site-title > .site-anchor,
 .site-branding > .site-title > .site-anchor > .image {
   display: block;
-  max-width: 36.0rem;
+  max-width: 28.0rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .site-branding > .site-title > .site-anchor,
+  .site-branding > .site-title > .site-anchor > .image {
+    max-width: 36.0rem;
+  }
 }
 
 .page {
@@ -231,5 +244,11 @@ h3 {
 .main-navigation {
   margin-left: auto;
   width: auto;
+}
+
+@media screen and (min-width: 0 1024px) {
+  .main-navigation {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

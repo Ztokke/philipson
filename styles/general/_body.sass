@@ -14,7 +14,10 @@ body
 %content-wrapper
   max-width: 114.0rem
   margin: 0 auto
-  padding: 0 3.0rem
+  padding: 0 1.6rem
+
+  +breakpoint($bp-medium)
+    padding: 0 3.0rem
 
 .content-wrapper
   @extend %content-wrapper
